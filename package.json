@@ -1,0 +1,29 @@
+{
+  "name": "oquizz",
+  "version": "1.0.0",
+  "description": "## Jour Zéro : Le début du commencement",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "node-dev index.js --no-notify",
+    "test": "node-dev test.js --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-FS-JS/OQuizz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-FS-JS/OQuizz/issues"
+  },
+  "homepage": "https://github.com/O-clock-FS-JS/OQuizz#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node-dev": "^7.2.0",
+    "pg": "^8.7.3"
+  }
+}
